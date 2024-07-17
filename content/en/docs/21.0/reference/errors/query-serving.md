@@ -84,6 +84,7 @@ These error messages are internal to Vitess. If you are getting other errors fro
 | VT12002 | Vitess does not support cross shard foreign keys. | unsupported: cross-shard foreign keys | 0 |  |
 | VT13001 | This error should not happen and is a bug. Please file an issue on GitHub: https://github.com/vitessio/vitess/issues/new/choose. | [BUG] %s | 0 |  |
 | VT13002 | This error should not happen and is a bug. Please file an issue on GitHub: https://github.com/vitessio/vitess/issues/new/choose. | unexpected AST struct for query: %s | 0 |  |
+| VT13003 | test long text | test | 0 |  |
 | VT14001 | The connection failed. | connection error | 0 |  |
 | VT14002 | No available connection. | no available connection | 0 |  |
 | VT14003 | No connection for the given tablet. | no connection for tablet %v | 0 |  |
