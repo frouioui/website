@@ -1,7 +1,7 @@
 ---
 title: vtbackup
 series: vtbackup
-commit: 6cd09cce61fa79a1b7aacb36886b7dc44ae82a94
+commit: efd8292435972f6ec13f22c0fd7c90475a6d14d2
 ---
 ## vtbackup
 
@@ -161,7 +161,7 @@ vtbackup [flags]
       --keep-alive-timeout duration                                 Wait until timeout elapses after a successful backup before shutting down.
       --keep_logs duration                                          keep logs for this long (using ctime) (zero to keep forever)
       --keep_logs_by_mtime duration                                 keep logs for this long (using mtime) (zero to keep forever)
-      --lock-timeout duration                                       Maximum time for which a shard/keyspace lock can be acquired for (default 45s)
+      --lock-timeout duration                                       Maximum time to wait when attempting to acquire a lock from the topo server (default 45s)
       --log_backtrace_at traceLocations                             when logging hits line file:N, emit a stack trace
       --log_dir string                                              If non-empty, write log files in this directory
       --log_err_stacks                                              log stack traces for errors
