@@ -1,7 +1,7 @@
 ---
 title: vtcombo
 series: vtcombo
-commit: efd8292435972f6ec13f22c0fd7c90475a6d14d2
+commit: acefe126bb794d6c87d4491779c6148e556b1d78
 ---
 ## vtcombo
 
@@ -264,6 +264,7 @@ vtcombo [flags]
       --mysql_tcp_version string                                         Select tcp, tcp4, or tcp6 to control the socket type. (default "tcp")
       --mysqlctl_mycnf_template string                                   template file to use for generating the my.cnf file during server init
       --mysqlctl_socket string                                           socket file to use for remote mysqlctl actions (empty for local actions)
+      --new-flag-test                                                    This is a test of a new VTGate flag.
       --no_scatter                                                       when set to true, the planner will fail instead of producing a plan that includes scatter queries
       --normalize_queries                                                Rewrite queries with bind vars. Turn this off if the app itself sends normalized queries with bind vars. (default true)
       --onclose_timeout duration                                         wait no more than this for OnClose handlers before stopping (default 10s)

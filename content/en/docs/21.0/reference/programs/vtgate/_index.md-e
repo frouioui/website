@@ -1,7 +1,7 @@
 ---
 title: vtgate
 series: vtgate
-commit: efd8292435972f6ec13f22c0fd7c90475a6d14d2
+commit: acefe126bb794d6c87d4491779c6148e556b1d78
 ---
 ## vtgate
 
@@ -176,6 +176,7 @@ vtgate \
       --mysql_server_write_timeout duration                              connection write timeout
       --mysql_slow_connect_warn_threshold duration                       Warn if it takes more than the given threshold for a mysql connection to establish
       --mysql_tcp_version string                                         Select tcp, tcp4, or tcp6 to control the socket type. (default "tcp")
+      --new-flag-test                                                    This is a test of a new VTGate flag.
       --no_scatter                                                       when set to true, the planner will fail instead of producing a plan that includes scatter queries
       --normalize_queries                                                Rewrite queries with bind vars. Turn this off if the app itself sends normalized queries with bind vars. (default true)
       --onclose_timeout duration                                         wait no more than this for OnClose handlers before stopping (default 10s)
